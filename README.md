@@ -42,7 +42,7 @@ Ce script crée un fichier .txt dans le dossier `outputs/models_detail/` qui dé
 
 ### Entrainer les variations du modèle B0 qui possèdent moins de 1.5M de paramètres
 ```
-(venv) $ python3 train_b0_models.py
+(venv) $ python3 train_models.py
 ```
 Ce script lance une procédure d'entrainement des 6 variantes du modèle qui contiennent un nombre de paramètres < 2 Millions.
 Il crée ses résultats dans le dossier `outputs/train_b0_models/`.
