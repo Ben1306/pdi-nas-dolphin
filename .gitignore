@@ -1,0 +1,11 @@
+# Ignore venv folder
+venv/
+
+# Ignore contents of the data folder
+data/*
+
+# Ignore pycache
+__pycache__/
+
+#Ignore the outputs folder
+outputs/
